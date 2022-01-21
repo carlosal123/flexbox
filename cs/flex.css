@@ -8,8 +8,10 @@
 
 
 .global {
-    background-color: rgb(0, 110, 255);
+    /* background-color: rgb(0, 110, 255); */
     height: 100vh;
+    background-color: rgb(58, 178, 233);
+    
 }
 
 .flex h3 {
@@ -17,15 +19,70 @@
     display: flex;
 }
 
-.menu {
-    display: flex;
+ .menu {
+    background-color: rgb(0, 119, 255);
     float: right;
- 
-    background-color: blue;
   
+
+    
+} 
+
+.flex1 {
+    color: rgb(246, 248, 250);
+    display: flex;
+    background-color: rgb(12, 8, 204);
+    width: 100%;
+    height: 50%;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  display: flex;
     
 }
 
-.flex1 {
-    color: white;
+.flex {
+    background-color: rgb(0, 102, 255);
 }
+
+.borda1, .borda2, .borda3 {
+    width: 300px;
+    height: 200px;
+    padding: 1%;
+    border-radius: 15px;
+    background-color:rgb(0, 60, 255);
+    color: white;
+    margin: 10px;
+    
+    
+  
+}
+
+
+
+.global55 {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+  
+}
+
+.tt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    color: blue;
+}
+.tt div {
+    width: 20%;
+    border: 15px solid rgb(0, 153, 255);
+    margin: 5px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+
+    
